@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CRYPTO TRACKER</h1>
+    </header>
+    <main>
+        <section id="crypto-list">
+            <h2>Available Cryptocurrencies</h2>
+            <div id="cryptos"></div>
+        </section>
+
+        <section id="comparison">
+            <h2>Comparison Section</h2>
+            <div id="selected-cryptos"></div>
+            <div id="preferences">
+                <h2>User Preferences</h2>
+                <select id="price-sort">
+                    <option value="">Sort by</option>
+                    <option value="low-to-high">Price: Low to High</option>
+                    <option value="high-to-low">Price: High to Low</option>
+                    <option value="market-cap">Market Cap</option>
+                </select>
+            </div>
+            <button id="refresh">Refresh Data</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crypto Tracker. All rights reserved.</p>
+        <p>C0942348</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
